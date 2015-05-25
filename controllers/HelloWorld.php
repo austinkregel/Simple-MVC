@@ -9,4 +9,7 @@ class HelloWorld extends Controller{
 	public function second(){
 		View::make('second');
 	}
+	public function post(){
+		print_r($_POST);
+	}
 }
